@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Developers stack calculator</title>
+  </head>
+  <body>
+    <div class="calc__outer">
+      <div class="calc__inner">
+        <div class="calc__inner--top">
+          <input
+            type="number"
+            class="calc__inner--top__input"
+            id="calc__inner--top__input" />
+        </div>
+        <div class="calc__inner--bottom" id="calc__inner--bottom">
+          <button id="calc__inner--bottom__addition">+</button>
+          <button id="calc__inner--bottom__substrac">-</button>
+          <button id="calc__inner--bottom__multiplication">*</button>
+          <button id="calc__inner--bottom__division">/</button>
+          <button id="calc__inner--bottom__remainder">%</button>
+        </div>
+        <div class="calc__inner--result">
+          <span
+            class="calc__inner--result__val"
+            id="calc__inner--result__valOne"
+            >_</span
+          >
+          <span
+            class="calc__inner--result__operator"
+            id="calc__inner--result__operator"
+            >_</span
+          >
+          <span
+            class="calc__inner--result__val"
+            id="calc__inner--result__valTwo"
+            >_</span
+          >
+          <span class="calc__inner--result__assignment">=</span>
+          <span
+            class="calc__inner--result__answer"
+            id="calc__inner--result__answer"
+            >?</span
+          >
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
